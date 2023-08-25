@@ -1,0 +1,66 @@
+.Header {
+  text-align: center;
+  background-color: rgba(7, 7, 7, 0.581);
+  color: white;
+  margin: 0px;
+  padding: 1px;
+}
+.container-lg {
+  /* background-color: black; */
+  align-items: center;
+  justify-content: center;
+  /* height: 500px; */
+  width: auto;
+  /* position: relative; */
+ 
+}
+.content {
+  background-color: rgba(0, 0, 0, 0.323);
+  margin: 10%;
+  text-align: center;
+  border: solid;
+  border-color: rgb(98, 83, 83);
+  position: relative;
+}
+.selected{
+  padding: 10px;
+}
+.Initial {
+  color: white;
+  text-align: center;
+}
+.Hidden{
+  display: none;
+}
+.Question {
+  background-color: rgb(255, 254, 254);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.Blackout{
+  background-color: black;
+}
+.ScoreContainer{
+  margin: 10%;
+}
+.Scorebox{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.814);
+  position: absolute;
+  /* box-sizing: content-box; */
+  display: none;
+}
+.scoretext {
+ padding: 30%;
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+#timer{
+  color: white;
+  font-size: larger;
+}
